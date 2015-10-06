@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template" client="site">
+	<name>Rassvet</name>
+	<creationDate>30 07 2015</creationDate>
+	<author>Andrei Dokolskij</author>
+	<authorEmail>dokolskij@rambler.ru</authorEmail>
+	<authorUrl>http://www.dokolskij.ru</authorUrl>
+	<copyright>Copyright (C) 2015 Все права защищены.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>TPL_RASSVET_DESCRIPTION</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>fonts</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+	</files>
+	
+	<positions>
+		<position>TopMenu</position>
+		<position>promo</position>
+	</positions>
+	
+	<languages folder="language">
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_rassvet.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_rassvet.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_rassvet.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_rassvet.sys.ini</language>
+	</languages>
+	
+	
+	<config>
+	    <fields name="params">
+			<fieldset name="advanced">
+				
+				<field name="site_logo" 
+					type="media" 
+					label="TPL_RASSVET_FIELD_SITELOGO" 
+					description="TPL_RASSVET_FIELD_SITELOGO_DESC">
+				</field>
+				
+				<field name="right_header_img" 
+					type="media" 
+					label="TPL_RASSVET_FIELD_HEADERIMG" 
+					description="TPL_RASSVET_FIELD_HEADERIMG_DESC">
+				</field>
+				
+				<field name="site_name" 
+					type="text" 
+					label="TPL_RASSVET_FIELD_SITENAME" 
+					description="TPL_RASSVET_FIELD_SITENAME_DESC">
+				</field>
+				
+				<field name="site_desc" 
+					type="textarea" 
+					label="TPL_RASSVET_FIELD_SITEDESC" 
+					description="TPL_RASSVET_FIELD_SITEDESC_DESC">
+				</field>
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
